@@ -1,4 +1,4 @@
-# MADDoSNet: Multi-Modal Attention-based DDoS Detection Network
+# MADDoSNet: Multi-Head Attention-based DDoS Detection Network
 
 ## Overview
 MADDoSNet is a **deep learning-based model** designed to detect **Distributed Denial-of-Service (DDoS) attacks** using a combination of CNN, Bi-GRU, and Multi-Head Attention mechanisms. It processes network traffic data and identifies malicious patterns with high accuracy.
@@ -13,6 +13,10 @@ MADDoSNet is a **deep learning-based model** designed to detect **Distributed De
 The model is trained on a dataset containing **normal and attack network traffic samples**, stored in CSV files:
 - `dataset_normal.csv`: Contains legitimate traffic data.
 - `dataset_attack.csv`: Contains DDoS attack traffic.
+The datasets can be found here:
+```
+https://gitlab.com/santhisenan/ids_iscx_2012_dataset
+```
 
 ## Installation
 ### Clone the repository
